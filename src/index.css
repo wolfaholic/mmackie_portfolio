@@ -41,7 +41,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/BG1.jpg);
+    background-image: url(../src/assets/bg2.png);
 }
 
 /* ==== General Styles ==== */
@@ -103,10 +103,15 @@ a:hover {
     border-color: transparent;
 }
 
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
 img {
     display: block;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* ==== Medium Media Quearies ====*/
