@@ -2,7 +2,7 @@
 Professional Portfolio for Melissa Mackie using React.JS, CSS and HTML. This portfolio was inspired with some code used by Egator's youtube video, used to help cement my understanding of React, with adaptation for my own needs. Future variations will be a complete UX/UI Design by me with my own code.
 
 
-##TODO/Desired Features
+## TODO/Desired Features
 * add featured projects
 * add link/page to other skills(creative skills)
 * make resonsive to mobile
