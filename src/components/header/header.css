@@ -10,6 +10,16 @@ header {
     position: relative;
 }
 
+
+h3 {
+    font-family: Permanent Marker, sans-serif;
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1.3em;
+}
+
 /* CTA */
 .cta {
     margin-top: 2.5rem;

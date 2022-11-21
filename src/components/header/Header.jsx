@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import Collab from '../../assets/image_woman_2a.png'
+import Me from '../../assets/hooded_woman_computer.png'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
         <HeaderSocials />
 
         <div className="AI__Image">
-          <img src={Collab} alt="team collaboration AI art" />
+          <img src={Me} alt="woman computer engineer AI generated art" />
         </div>
 
         <a href="#contact" className="scroll__down">Scroll Down</a>
