@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { ImDribbble } from "react-icons/im";
 import { FaFreeCodeCamp } from "react-icons/fa";
 import { SiHackerrank } from "react-icons/si";
+import { BsTwitter } from "react-icons/bs"
  
 
 const HeaderSocials = () => {
@@ -14,6 +15,7 @@ const HeaderSocials = () => {
         <a href="https://dribbble.com/mmackie" target="_blank" rel="noreferrer"><ImDribbble /></a>
         <a href="https://www.freecodecamp.org/wolfaholic" target="_blank" rel="noreferrer"><FaFreeCodeCamp /></a>
         <a href="https://www.hackerrank.com/melissa_mackie" target="_blank" rel="noreferrer"><SiHackerrank /></a>
+        <a href="https://twitter.com/CodeMackie" target="_blank" rel="noreferrer"><BsTwitter /></a>
     </div>
   )
 }

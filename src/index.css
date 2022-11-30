@@ -121,7 +121,7 @@ img {
 
 
 
-/* ==== Medium Media Quearies ====*/
+/* ==== Media Queries | Medium Devices ====*/
 
 @media screen and (max-width: 1024px) {
     .contanier {
@@ -133,7 +133,7 @@ img {
     }
 }
 
-/* ==== Small Media Quearies ====*/
+/* ==== Media Queries | Small Devices ====*/
 
 @media screen and (max-width: 600px) {
     .contanier {
