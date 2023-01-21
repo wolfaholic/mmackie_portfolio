@@ -1,5 +1,5 @@
 /* font import */
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500&family=Satisfy:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Philosopher:wght@400;700&family=Telex&display=swap');
  
 
 
@@ -26,6 +26,10 @@
     --contanier-width-md: 86%;
     --container-width-sm: 90%;
 
+    --primary-font:'Amaranth', sans-serif;
+    --secondary-font:'Philosopher', sans-serif; 
+    --tertiary-font:'Telex', sans-serif;
+
     --transition: all 400ms ease;
 
 }
@@ -39,7 +43,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--tertiary-font);
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
@@ -59,8 +63,8 @@ h2, h3, h4, h5{
 }
 
 h1 {
-    font-weight: 600;
-    font-family: Satisfy, serif;
+    font-weight: 700;
+    font-family: var(--secondary-font);
     font-size: 3.5rem;
 }
 
