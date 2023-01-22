@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Philosopher:wght@400;700&family=Telex&display=swap');
  
 
-
 *{
     margin: 0;
     padding: 0;
@@ -15,21 +14,22 @@
 }
 
 :root {
+    /*Variable Colors */
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, .04);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, .6);
-
+    /*Container Variables */
     --container-width-lg: 75%;
     --contanier-width-md: 86%;
     --container-width-sm: 90%;
-
+    /*Variable Fonts */
     --primary-font:'Amaranth', sans-serif;
     --secondary-font:'Philosopher', sans-serif; 
     --tertiary-font:'Telex', sans-serif;
-
+    /*Transition Variables */
     --transition: all 400ms ease;
 
 }
@@ -47,12 +47,10 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/BG1.jpg); */
     background: #22314A, 
 }
 
 /* ==== General Styles ==== */
-
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
