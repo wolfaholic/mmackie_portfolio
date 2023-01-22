@@ -8,9 +8,13 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
-    background-color: var(--color-primary-variant);
-    background:url(/src/assets/bg4.jpg);
-    border-radius: 20px;
+    padding: 2rem;
+    background: rgba( 21, 21, 51, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
 }
 
 h3 {
@@ -52,8 +56,13 @@ h5 {
     position: absolute;
     left: 0;
     bottom: 3rem;
-    background-color: rgba(9, 9, 9, 0.524);
-    border-radius: 20px;
+    padding: .3rem;
+    background: rgba( 21, 21, 51, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
 }
 
 .header__socials::after {
@@ -85,8 +94,13 @@ h5 {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: .9rem;
-    background-color: rgba(9, 9, 9, 0.524);
-    border-radius: 20px;
+    padding: .5rem;
+    background: rgba( 21, 21, 51, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
 }
 
 

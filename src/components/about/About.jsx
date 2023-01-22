@@ -19,7 +19,7 @@ const About = () => {
               <p>    
               I have a very customer-service rich employment history with a sprinkling of health care and sales in-between. I have always sought and found a way to influence each position I have held with empathy, passion and a never give up mind-frame. Never give up means to me that even when you are at your lowest, you pause and allow yourself a moment, then you get back up and persist. This frame of mind has helped me get through some of the lowest points in my life. The one thing though I always wanted though is to really make a difference and to work in an industry where I can as well as have a creative outlet. After a sacrifice of time, money and lots of hard work. I have found it. I look forward to entering the tech industry.
               </p>
-              <a href="#contact" className="btn btn-primary">Let's Talk over <BiCoffeeTogo className="header_icon" /></a>
+              <a href="#contact" className="btn btn-secondary">Let's Talk over <BiCoffeeTogo className="header_icon" /></a>
               <div>
               
               </div>

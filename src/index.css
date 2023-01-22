@@ -117,6 +117,11 @@ a:hover {
     color: var(--color-bg);
 }
 
+.btn-secondary {
+    background: var(--color-bg-variant);
+    color:var(--color-primary);
+}
+
 img {
     display: block;
     width: 100%;
