@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <section id='experience'>
         <h5>What Skills I Have</h5>
-        <h2>My Experience</h2>
+        <h2>🎆 My Experience 🎆</h2>
         <div className="container experience__container">
           {/* FrontEnd Experience Information */}
           <div className="experience__frontend">
@@ -66,9 +66,8 @@ const Experience = () => {
                 </article>             
               </div>
             </div>
-              {/* Back End Skills */}
-              <div className="experience__frontend">
-            
+          {/* Back End Skills */}
+              <div className="experience__backend">
               <h3>Back-End Development </h3>                      
              
               <div className="experience__content">
@@ -120,7 +119,112 @@ const Experience = () => {
                 
               </div>
           </div>
-        
+          {/* Design Skills */}
+          <div className="experience__design">
+              <h3>Design Experience </h3>                      
+             
+              <div className="experience__content">
+                <article className="experience__details">
+                  <div>
+                    <h4 id='icon'><FaNodeJs className="experience__details-icon" /></h4>
+                    <small className="text-light">NodeJS</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiJest className="experience__details-icon" /></h4>
+                    <small className="text-light">JEST</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiMysql className="experience__details-icon"/></h4>
+                    <small className="text-light">MySQL</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                  <div>
+                    <h4 id='icon'>
+                      <DiSqllite className="experience__details-icon" /> 
+                    </h4>
+                    <small className="text-light">SQLite</small>
+                  </div>
+                </article>
+                
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiRedux className="experience__details-icon"/></h4>
+                    <small className="text-light">Redux</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiJsonwebtokens className="experience__details-icon"/></h4>
+                    <small className="text-light">JWT</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiExpress className="experience__details-icon"/></h4>
+                    <small className="text-light">ExpressJS</small>
+                  </div>
+                </article>              
+                
+              </div>
+          </div>
+          {/* Trasnferable Skills */}
+          <div className="experience__transferable">
+              <h3>Transferable Skills</h3>                      
+             
+              <div className="experience__content">
+                <article className="experience__details">
+                  <div>
+                    <h4 id='icon'><FaNodeJs className="experience__details-icon" /></h4>
+                    <small className="text-light">NodeJS</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiJest className="experience__details-icon" /></h4>
+                    <small className="text-light">JEST</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiMysql className="experience__details-icon"/></h4>
+                    <small className="text-light">MySQL</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                  <div>
+                    <h4 id='icon'>
+                      <DiSqllite className="experience__details-icon" /> 
+                    </h4>
+                    <small className="text-light">SQLite</small>
+                  </div>
+                </article>
+                
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiRedux className="experience__details-icon"/></h4>
+                    <small className="text-light">Redux</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiJsonwebtokens className="experience__details-icon"/></h4>
+                    <small className="text-light">JWT</small>
+                  </div>
+                </article>
+                <article className="experience__details">
+                <div>
+                    <h4 id='icon'><SiExpress className="experience__details-icon"/></h4>
+                    <small className="text-light">ExpressJS</small>
+                  </div>
+                </article>              
+                
+              </div>
+          </div>
       </div>
     </section>
   )
