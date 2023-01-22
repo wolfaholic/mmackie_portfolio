@@ -1,3 +1,17 @@
+#about {
+    background: linear-gradient(
+        20deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+}
+
+#about h2 {
+    color: var(--color-bg);
+    font-weight: 600;
+}
+
 .about__container {
 display: grid;
 grid-template-columns: 35% 50%;
@@ -7,15 +21,16 @@ gap: 15%;
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
-        20deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    transform: rotate(10deg);
     display: grid;
     place-items: center;
+    background: rgba( 44, 44, 108, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 1rem;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
 }
 
 .about__me-image {
@@ -23,11 +38,21 @@ gap: 15%;
     overflow: hidden;
     transform: rotate(-10deg);
     width: 105%;
+    
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color:var(--color-light);
+    color:var(--color-white);
     gap: 1.5rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background: rgba( 44, 44, 108, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+     
      
 }
