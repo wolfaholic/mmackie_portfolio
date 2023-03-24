@@ -6,8 +6,8 @@ import {SiHtml5, IoLogoCss3, FaReact, SiRedux,  SiSass, SiJavascript, FaLess, Ai
 const Experience = () => {
   return (
     <section id='experience'>
-        <h5>What Skills I Have</h5>
-        <h2>🎆 My Experience 🎆</h2>
+        <h5>🎆My Skillset 🎆</h5>
+        <h2>  I have experience with... </h2>
         <div className="container experience__container">
           {/* FrontEnd Experience Information */}
           <div className="experience__frontend">

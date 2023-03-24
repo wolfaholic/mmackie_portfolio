@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:https://myquest.questdiagnostics.com/mq-programs/program/confirmation
+DTSTART:20230125T190000Z
+DTEND:20230125T191500Z
+SUMMARY:COVID-19 or COVID-19/Flu Test
+DESCRIPTION:Your appointment has been confirmed as follows:
+        Confirmation Number:  WSWGOP
+        Activity Name: COVID-19 or COVID-19/Flu Test
+        Date:  2023-01-25, 11:00
+LOCATION:RITE AID - Rite Aid 06544 COVID-19 Drive Thru-BELFAIR, 23940 Ne State Route 3 null, Belfair, WA 98528-9697
+END:VEVENT
+END:VCALENDAR
