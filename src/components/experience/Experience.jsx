@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {SiHtml5, IoLogoCss3, FaReact, SiRedux,  SiSass, SiJavascript, FaLess, AiFillDatabase, SiCypress, FaNodeJs, SiJest, SiMysql, DiSqllite, VscGithubInverted, SiJsonwebtokens, SiExpress,} from './Icons.jsx'
+import {SiHtml5, IoLogoCss3, FaReact, SiRedux,  SiSass, SiJavascript, CgFigma, SiCypress, FaNodeJs, SiJest, SiMysql, DiSqllite, VscGithubInverted, SiJsonwebtokens, SiExpress, SiOpenai, SiAdobe, SiCanva} from './Icons.jsx'
 
 
 const Experience = () => {
@@ -12,7 +12,6 @@ const Experience = () => {
           {/* FrontEnd Experience Information */}
           <div className="experience__frontend">
               <h3>Front-End Development </h3>                      
-             
               <div className="experience__content">
                 <article className="experience__details">
                   <div>
@@ -99,10 +98,6 @@ const Experience = () => {
                 </article>
                 
                 <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiRedux className="experience__details-icon"/></h4>
-                    <small className="text-light">Redux</small>
-                  </div>
                 </article>
                 <article className="experience__details">
                 <div>
@@ -126,105 +121,61 @@ const Experience = () => {
               <div className="experience__content">
                 <article className="experience__details">
                   <div>
-                    <h4 id='icon'><FaNodeJs className="experience__details-icon" /></h4>
-                    <small className="text-light">NodeJS</small>
+                    <h4 id='icon'><SiAdobe className="experience__details-icon" /></h4>
+                    <small className="text-light">Adobe CC</small>
                   </div>
                 </article>
                 <article className="experience__details">
                 <div>
-                    <h4 id='icon'><SiJest className="experience__details-icon" /></h4>
-                    <small className="text-light">JEST</small>
+                    <h4 id='icon'><SiOpenai className="experience__details-icon" /></h4>
+                    <small className="text-light">A.I Prompt Engineering</small>
                   </div>
                 </article>
                 <article className="experience__details">
                 <div>
-                    <h4 id='icon'><SiMysql className="experience__details-icon"/></h4>
-                    <small className="text-light">MySQL</small>
+                    <h4 id='icon'><CgFigma className="experience__details-icon"/></h4>
+                    <small className="text-light">Figma</small>
                   </div>
                 </article>
                 <article className="experience__details">
                   <div>
                     <h4 id='icon'>
-                      <DiSqllite className="experience__details-icon" /> 
+                      <SiCanva className="experience__details-icon" /> 
                     </h4>
-                    <small className="text-light">SQLite</small>
+                    <small className="text-light">Canva</small>
                   </div>
                 </article>
                 
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiRedux className="experience__details-icon"/></h4>
-                    <small className="text-light">Redux</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiJsonwebtokens className="experience__details-icon"/></h4>
-                    <small className="text-light">JWT</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiExpress className="experience__details-icon"/></h4>
-                    <small className="text-light">ExpressJS</small>
-                  </div>
-                </article>              
+                            
                 
               </div>
           </div>
-          {/* Trasnferable Skills */}
-          <div className="experience__transferable">
+          {/* Trasnferable Skills - Removed Will Reimpliment once I can decide how to design it how I like it*/}
+          {/* <div className="experience__transferable">
               <h3>Transferable Skills</h3>                      
              
               <div className="experience__content">
                 <article className="experience__details">
-                  <div>
-                    <h4 id='icon'><FaNodeJs className="experience__details-icon" /></h4>
-                    <small className="text-light">NodeJS</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiJest className="experience__details-icon" /></h4>
-                    <small className="text-light">JEST</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiMysql className="experience__details-icon"/></h4>
-                    <small className="text-light">MySQL</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                  <div>
-                    <h4 id='icon'>
-                      <DiSqllite className="experience__details-icon" /> 
-                    </h4>
-                    <small className="text-light">SQLite</small>
-                  </div>
-                </article>
-                
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiRedux className="experience__details-icon"/></h4>
-                    <small className="text-light">Redux</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiJsonwebtokens className="experience__details-icon"/></h4>
-                    <small className="text-light">JWT</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiExpress className="experience__details-icon"/></h4>
-                    <small className="text-light">ExpressJS</small>
-                  </div>
+                  <ul>
+                    <li>Customer service skills</li>
+                    <li>Communication skills</li>
+                    <li>Problem-solving skills</li>
+                    <li>Organization</li>
+                    <li>Multitasking</li>
+                    <li>Patience</li>
+                    <li>Technical aptitude </li>
+                    <li>Adaptability </li>
+                    <li>Creative problem-solving </li>
+                    <li>Collaboration </li>
+                    <li>Analytical thinking </li>
+                    <li>Conflict resolution </li>
+                    <li>Empathy</li>
+                    <li>Customer-focused </li>
+                    <li>Continuous learning</li>
+                  </ul>
                 </article>              
-                
               </div>
-          </div>
+          </div> */}
       </div>
     </section>
   )

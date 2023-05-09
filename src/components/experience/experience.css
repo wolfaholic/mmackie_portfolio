@@ -1,10 +1,8 @@
 
-
 .experience__container {
-    display: grid; 
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-     
 }
 
 .experience__container > div {
@@ -17,42 +15,40 @@
 
 .experience__container > div:hover {
     background: transparent;
-    border-color: var(--color-primary);
+    background-color: var(--color-primary-variant);
     cursor: default;
 }
 
 .experience__container > div h3 {
     text-align: center;
-    margin-bottom: .5rem;
     color: var(--color-primary);
+    margin-bottom: 2rem;
+
 }
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 1.2rem;
-    gap: 1rem
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
 }
 
-.experience__details {
+.experience_details {
     display: flex;
-    align-items: stretch;
-    justify-content: center;
     gap: 1rem;
 }
 
-.experience__details-icon {
-    display: flex;
-    margin-top: 10px;
-    color: var(--color-primary);     
+
+/* ==== Medium Media Quearies ====*/
+
+@media screen and (max-width: 1024px) {
+ 
+
+
 }
 
-#icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* ==== Small Media Quearies ====*/
 
-.prepro {
-    margin-left: .2rem
+@media screen and (max-width: 600px) {
+
+  
 }

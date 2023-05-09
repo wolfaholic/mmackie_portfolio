@@ -29,11 +29,15 @@ import {FaPeopleArrows} from 'react-icons/fa'
 import {CgFigma} from 'react-icons/cg'
 import {GrPlan} from 'react-icons/gr'
 import {ImFontSize} from 'react-icons/im'
+import {SiCanva} from 'react-icons/si'
+import {SiOpenai} from 'react-icons/si'
 
 
 
 
 export { 
+SiOpenai,
+SiCanva,
 SiHtml5,
 IoLogoCss3,
 FaReact,
