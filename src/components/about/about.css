@@ -1,3 +1,4 @@
+/* about me section */
 #about {
     background: linear-gradient(
         20deg,
@@ -5,19 +6,22 @@
         var(--color-primary),
         transparent
     );
-}
+} 
 
+/* about me h2 tag "ABOUT ME" */
 #about h2 {
     color: var(--color-bg);
     font-weight: 600;
 }
 
+/* about container - contains image and paragraph sections */
 .about__container {
 display: grid;
 grid-template-columns: 35% 50%;
 gap: 15%;
-}
+} 
 
+/* box behind my image */
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
@@ -35,6 +39,7 @@ gap: 15%;
     
 }
 
+/* my image */
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
@@ -42,25 +47,20 @@ gap: 15%;
     width: 105%;
     
 }
-
-.about__content p {
-    margin: 2rem 0 2.6rem;
+About Me Content 
+ .about__content p {
     color:var(--color-white);
-    gap: 1.5rem;
-    padding: 1rem;
     border-radius: 1.5rem;
     background: rgba( 44, 44, 108, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 15px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 3px );
     -webkit-backdrop-filter: blur( 3px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );   
-     
-}
-
+    border: 1px solid rgba( 255, 255, 255, 0.18 );       
+} 
+ 
 /* ==== Medium Media Quearies ====*/
-
-@media screen and (max-width: 1024px) {
+ /* @media screen and (max-width: 1024px) {
     #about {
         width: 100vw;
         height: 100vh;
@@ -76,17 +76,17 @@ gap: 15%;
         margin: 2rem auto 4rem;
     }
 
-    .about__content p {
+    .about__content p{
         margin: 1rem 0 1.5rem;
         width: 100%;
     }
 
 
-}
+} 
 
 /* ==== Small Media Quearies ====*/
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
      
     .about__me {
         width: 65%;
@@ -94,10 +94,11 @@ gap: 15%;
     }
 
     .about__content {
+        width: 100%;
         text-align: center;
     }
 
     .about__content p {
         margin: 1.5rem 0;
     }
-}
+}   */
