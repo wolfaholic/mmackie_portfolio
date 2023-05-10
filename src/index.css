@@ -10,18 +10,18 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    /* background: url(/src/assets/wavesbg.png) fixed no-repeat;
-    background-size: cover;  */
+    
 }
 
 :root {
     /*Variable Colors */
-    --color-bg: #1f1f38;
+    --color-bg: #171729;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, .04);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, .6);
+    --color-tertiary: rgba(50, 15, 116, 0.65);
     /*Container Variables */
     --container-width-lg: 75%;
     --contanier-width-md: 86%;
@@ -48,14 +48,16 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background: #22314A,     
+    /* background: #22314A,      */
+    background: url(/src/assets/black-felt.png), #151d2d fixed repeat;
+    background-size: cover;  
 }
 
 /* ==== General Styles ==== */
+
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
-    
 }
 
 h2, h3, h4, h5{

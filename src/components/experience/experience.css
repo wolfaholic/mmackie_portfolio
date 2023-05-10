@@ -3,14 +3,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+     
 }
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 1.5rem 8rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    margin: 0 auto;
+    
 }
 
 .experience__container > div:hover {
@@ -28,8 +31,10 @@
 
 .experience__content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1.5rem;
+    align-items: center;
+     
 }
 
 .experience_details {
@@ -37,9 +42,23 @@
     gap: 1rem;
 }
 
-.experience_details {
-    display: flex;
-    gap: 1rem;
+.experience__details-icon {
+     margin-top: 6px;
+     color: var(--color-primary);
+}
+
+.other__skills {
+    padding-top: 35px;
+    color: var(--color-primary);
+    font-weight:bold;
+}
+
+.skillset {
+    padding: 1.5rem 8rem;
+    margin: 1.5rem 0;
+    background: var(--color-bg-variant);
+    border-radius: 10px;
+
 }
 
 

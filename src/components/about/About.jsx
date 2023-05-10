@@ -16,7 +16,6 @@ const About = () => {
               </div>
           </div>
             <article className="about__content">
-              <p>Welcome to my portfolio. This is currently a work in progress as I put my future together.</p>
               <p>    
               I have a rich employment history in customer service, with a sprinkling of healthcare and sales in-between. I have always sought and found a way to influence each position I have held with empathy, passion, and a never-give-up mindset. 'Never give up' means to me that even when you are at your lowest, you pause and allow yourself a moment, then you get back up and persist. This frame of mind has helped me get through some of the lowest points in my life.
               <br />

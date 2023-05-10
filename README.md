@@ -11,5 +11,6 @@ Professional Portfolio for Melissa Mackie using React.JS, CSS and HTML. This por
 * add a blog
 * add video / podcast link
 * add theme changer
+*add media queries back
 
 

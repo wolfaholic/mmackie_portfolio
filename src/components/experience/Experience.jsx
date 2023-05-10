@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {SiHtml5, IoLogoCss3, FaReact, SiRedux,  SiSass, SiJavascript, CgFigma, SiCypress, FaNodeJs, SiJest, SiMysql, DiSqllite, VscGithubInverted, SiJsonwebtokens, SiExpress, SiOpenai, SiAdobe, SiCanva} from './Icons.jsx'
+import {SiHtml5, IoLogoCss3, FaReact, SiRedux,  SiSass, SiJavascript, SiCypress, FaNodeJs, SiJest, SiMysql, DiSqllite, VscGithubInverted, SiJsonwebtokens, SiExpress, } from './Icons.jsx'
 
 
 const Experience = () => {
@@ -114,68 +114,16 @@ const Experience = () => {
                 
               </div>
           </div>
-          {/* Design Skills */}
-          <div className="experience__design">
-              <h3>Design Experience </h3>                      
-             
-              <div className="experience__content">
-                <article className="experience__details">
-                  <div>
-                    <h4 id='icon'><SiAdobe className="experience__details-icon" /></h4>
-                    <small className="text-light">Adobe CC</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><SiOpenai className="experience__details-icon" /></h4>
-                    <small className="text-light">A.I Prompt Engineering</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                <div>
-                    <h4 id='icon'><CgFigma className="experience__details-icon"/></h4>
-                    <small className="text-light">Figma</small>
-                  </div>
-                </article>
-                <article className="experience__details">
-                  <div>
-                    <h4 id='icon'>
-                      <SiCanva className="experience__details-icon" /> 
-                    </h4>
-                    <small className="text-light">Canva</small>
-                  </div>
-                </article>
-                
-                            
-                
-              </div>
-          </div>
-          {/* Trasnferable Skills - Removed Will Reimpliment once I can decide how to design it how I like it*/}
-          {/* <div className="experience__transferable">
-              <h3>Transferable Skills</h3>                      
-             
-              <div className="experience__content">
-                <article className="experience__details">
-                  <ul>
-                    <li>Customer service skills</li>
-                    <li>Communication skills</li>
-                    <li>Problem-solving skills</li>
-                    <li>Organization</li>
-                    <li>Multitasking</li>
-                    <li>Patience</li>
-                    <li>Technical aptitude </li>
-                    <li>Adaptability </li>
-                    <li>Creative problem-solving </li>
-                    <li>Collaboration </li>
-                    <li>Analytical thinking </li>
-                    <li>Conflict resolution </li>
-                    <li>Empathy</li>
-                    <li>Customer-focused </li>
-                    <li>Continuous learning</li>
-                  </ul>
-                </article>              
-              </div>
-          </div> */}
+      </div>
+      
+      <h5 className="other__skills">My Other Skills</h5>
+      <div className="skillset__container">
+        <p className="container skillset">
+          I am transitioning over from the customer service industry and have recently graduated in May of 2023 from a bootcamp with BloomTech Institute of Technology. Having worked retail, call centers and other customer service oriented positions for many years. I am exited to make this change in my life to do something I am very passionate about. In my previous roles I served as a customer service associate or adjacent jobs I have gained valuable skillsets that I belive will help me in my transition.
+          <br />
+          <br />
+          In my customer service roles I collaborated with multiple departments to achieve goals, and provided excellent service to customers. These skills have prepared me to communicate with team members, effectively manage multiple projects, and provide excellent service to stakeholders. My hobbies, my love for reading, art and a passion for learning have led me down a path where I am learning about the new up and coming AI changes and am learning how to do prompt engineering, I have familiar with the Adobe Creative Suite, Canva the online graphic design tool, and I am learning the art of web design to not just be able to code my sites but make them look good as well. It is a work in progress but I have a never give up attitude and I am confidant I will get there. 
+        </p>
       </div>
     </section>
   )
