@@ -1,0 +1,12 @@
+#portfolio {
+    background: var(--color-bg-variant)
+}
+
+.portfolio_item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition)
+}
