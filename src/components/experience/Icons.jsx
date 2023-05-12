@@ -31,6 +31,7 @@ import {GrPlan} from 'react-icons/gr'
 import {ImFontSize} from 'react-icons/im'
 import {SiCanva} from 'react-icons/si'
 import {SiOpenai} from 'react-icons/si'
+import {BsTwitter} from 'react-icons/bs'
 
 
 
@@ -69,6 +70,7 @@ FaPeopleArrows,
 CgFigma,
 GrPlan,
 ImFontSize,
+BsTwitter
 }
  
   
