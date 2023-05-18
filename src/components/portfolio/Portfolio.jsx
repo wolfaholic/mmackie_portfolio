@@ -11,49 +11,25 @@ const Portfolio = () => {
           <article className='portfolio__item'>
             <div className='portfolio__item-image'>
               {/* <img src={IMG1} alt="" /> */}
-              <h3>Project Title</h3>
-              <a href="https://github.com" className='btn'>Github</a>
-              <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+              <h3>BloomTech Project: Github UserCard</h3>
+              <a href="https://github.com/wolfaholic/Project_GitHub_UserCard" className='btn'>Github</a>
+              {/* <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a> */}
             </div>
           </article>
           <article className='portfolio__item'>
             <div className='portfolio__item-image'>
               {/* <img src={IMG1} alt="" /> */}
-              <h3>Project Title</h3>
-              <a href="https://github.com" className='btn'>Github</a>
-              <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+              <h3>Sprint Challenge - Build a Web API</h3>
+              <a href="https://github.com/wolfaholic/web-sprint-challenge-build-a-web-api" className='btn'>Github</a>
+              {/* <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a> */}
             </div>
           </article>
           <article className='portfolio__item'>
             <div className='portfolio__item-image'>
               {/* <img src={IMG1} alt="" /> */}
-              <h3>Project Title</h3>
-              <a href="https://github.com" className='btn'>Github</a>
-              <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
-            </div>
-          </article>
-          <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-              {/* <img src={IMG1} alt="" /> */}
-              <h3>Project Title</h3>
-              <a href="https://github.com" className='btn'>Github</a>
-              <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
-            </div>
-          </article>
-          <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-              {/* <img src={IMG1} alt="" /> */}
-              <h3>Project Title</h3>
-              <a href="https://github.com" className='btn'>Github</a>
-              <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
-            </div>
-          </article>
-          <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-              {/* <img src={IMG1} alt="" /> */}
-              <h3>Project Title</h3>
-              <a href="https://github.com" className='btn'>Github</a>
-              <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a>
+              <h3>Labs Projects</h3>
+              <a href="https://github.com/wolfaholic/asylum-rg-fe-starter" className='btn'>Github</a>
+              {/* <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a> */}
             </div>
           </article>
         </div>
