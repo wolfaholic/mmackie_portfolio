@@ -8,30 +8,16 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
 
         <div className="container portfolio__container">
-          <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-              {/* <img src={IMG1} alt="" /> */}
-              <h3>BloomTech Project: Github UserCard</h3>
+          <div className='project__card'>
+              <h3>Title</h3>
+              <p>Project Information</p>
+              {/* <img src={IMG} alt="placeholder" /> */}
               <a href="https://github.com/wolfaholic/Project_GitHub_UserCard" className='btn'>Github</a>
-              {/* <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a> */}
-            </div>
-          </article>
-          <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-              {/* <img src={IMG1} alt="" /> */}
-              <h3>Sprint Challenge - Build a Web API</h3>
-              <a href="https://github.com/wolfaholic/web-sprint-challenge-build-a-web-api" className='btn'>Github</a>
-              {/* <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a> */}
-            </div>
-          </article>
-          <article className='portfolio__item'>
-            <div className='portfolio__item-image'>
-              {/* <img src={IMG1} alt="" /> */}
-              <h3>Labs Projects</h3>
-              <a href="https://github.com/wolfaholic/asylum-rg-fe-starter" className='btn'>Github</a>
-              {/* <a href="https://github.com" className='btn btn-primary' target='blank'>Live Demo</a> */}
-            </div>
-          </article>
+              <a href="https://github.com" className='btn btn-primary' target='blank'>Video Demo</a>
+             
+          </div>
+
+
         </div>
     </section>
   )
