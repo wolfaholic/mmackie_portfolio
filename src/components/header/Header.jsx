@@ -13,6 +13,9 @@ const Header = () => {
           <h1 className="main_title">Melissa Mackie</h1>
           <h5 className="text-light">Full Stack Web Developer</h5>
           <h6 className="text-light">I make code things happen.</h6>
+          <p>
+            I am in the process of reworking my portfolio. So please don't mind the mess while I am changing how it looks. - Melissa
+          </p>
           <CTA />
           <HeaderSocials />
 
